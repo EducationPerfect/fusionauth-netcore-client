@@ -30,11 +30,15 @@ namespace io.fusionauth.domain {
 
     public bool? debug;
 
+    public Guid? defaultKeyId;
+
     public string issuer;
 
     public Guid? keyId;
 
     public string logoutURL;
+
+    public bool? requireSignature;
 
     public CanonicalizationMethod xmlSignatureC14nMethod;
 
