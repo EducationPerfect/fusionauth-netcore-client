@@ -24,6 +24,8 @@ namespace io.fusionauth.domain {
 
     public string audience;
 
+    public List<string> authorizedRedirectURLs;
+
     public string callbackURL;
 
     public bool? debug;
