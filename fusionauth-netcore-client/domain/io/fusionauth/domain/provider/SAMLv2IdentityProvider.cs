@@ -43,7 +43,7 @@ namespace io.fusionauth.domain.provider {
 
     public Guid? keyId;
 
-    public bool? post;
+    public bool? postRequest;
 
     public Guid? requestSigningKeyId;
 
